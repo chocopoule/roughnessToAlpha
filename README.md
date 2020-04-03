@@ -2,7 +2,7 @@
 A python utility script to copy roughness texture to alpha channel of metallic texture
 Because the smoothness of each point on the surface is a single value, only a single channel of an image texture is required for the data. Therefore, in Unity, the smoothness data is assumed to be stored in the Alpha Channel of the same image texture used for the Metallic or Specular texture map (depending which of these two modes you are using).
 
-#usage
+# usage
 usage: MetallicToRought.py [-h] [--met METALLIC_MAP_PATH]
                            (--rough ROUGHNESS_MAP_PATH | --smooth SMOOTHNESS_MAP_PATH)
 
